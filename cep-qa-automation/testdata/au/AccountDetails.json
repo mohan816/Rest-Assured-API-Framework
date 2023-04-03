@@ -1,0 +1,77 @@
+{
+  "firstName": "TestFirstName",
+  "lastName": "TestLastName",
+  "dob": "01/01/1984",
+  "phone": "1234567890",
+  "notificationSettings": {
+    "SMS": [
+      "NewOrder",
+      "OrderStatusChanged",
+      "OrderCancelled"
+    ],
+    "Email": [
+      "OrderShipped",
+      "OrderStatusChanged",
+      "OrderCancelled"
+    ],
+    "PushNotification": [
+      "OrderCancelled"
+    ]
+  },
+  "termsAccepted": [
+    "Term1",
+    "Term2"
+  ],
+  "addresses": [
+    {
+      "default": true,
+      "isStore": false,
+      "name": "T033",
+      "id": "T01",
+      "companyCode": "Pepsico",
+      "type": "Sold-To / Payer",
+      "buildingNumber": 11,
+      "addressLine1": null,
+      "addressLine2": "",
+      "street": "121212",
+      "billingType": "billTo",
+      "province": "UPoosadP",
+      "city": "Noida",
+      "state": "UP",
+      "country": "IN",
+      "postalCode": 233237,
+      "taxAreaCode": null,
+      "VATNumber": 1230987,
+      "phoneNumber": 8090012316,
+      "permissions": "CEDO",
+      "profileStatus": "enrolled",
+      "points": 250,
+      "lifetimePoints": 500
+    },
+    {
+      "default": true,
+      "isStore": false,
+      "name": "T033",
+      "id": "T01",
+      "companyCode": "Pepsico",
+      "type": "Sold-To / Payer",
+      "buildingNumber": 11,
+      "addressLine1": null,
+      "addressLine2": "",
+      "street": "121212",
+      "billingType": "billTo",
+      "province": "UPP",
+      "city": "Noida",
+      "state": "UP",
+      "country": "IN",
+      "postalCode": 233237,
+      "taxAreaCode": null,
+      "VATNumber": 1230987,
+      "phoneNumber": 8090012316,
+      "permissions": "CEDO",
+      "profileStatus": "enrolled",
+      "points": 250,
+      "lifetimePoints": 500
+    }
+  ]
+}

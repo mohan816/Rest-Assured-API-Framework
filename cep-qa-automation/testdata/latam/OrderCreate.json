@@ -1,0 +1,23 @@
+{
+"orderType": "ZOR",
+"orderDate": "2023-02-08",
+"subtotal": "20",
+"estimatedDeliveryDate": "2023-02-14",
+"productDiscounts": 0,
+"totalTax": "20",
+"totalPrice": "952",
+"browserCart": true,
+"cartItems": [
+{
+"id": 232902,
+"externalId": "000000000300034197",
+"categoryId": 3,
+"isPromotional": false,
+"conversionMulitplierToBase": "1",
+"quantity": 1,
+"basePrice": "800",
+"finalPrice": "952",
+"discountedPrice": 0
+}
+]
+}

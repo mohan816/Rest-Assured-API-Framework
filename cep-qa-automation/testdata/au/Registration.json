@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "userId": "qatest01@gmail.com",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "role": "Customer",
+    "dob": "01/01/2000",
+    "deviceToken": "e79c2b66222a956ce04625b22e3cad3a63e91f34b1a21213a458fadb2b459385",
+    "deviceType": "Android"
+  },
+  "notificationSettings": {
+    "PushNotification": [
+      "NewOrder",
+      "OrderStatusChanged",
+      "OrderCancelled"
+    ],
+    "Email": [
+      "OrderShipped",
+      "OrderStatusChanged",
+      "OrderCancelled"
+    ]
+  },
+  "credentials": {
+    "password": {
+      "value": "Test@123"
+    }
+  },
+  "addresses": [
+    {
+      "default": true,
+      "isStore": false,
+      "billingType": "soldTo",
+      "postalCode": 233237
+    }
+  ]
+}
